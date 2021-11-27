@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <suite-files>
+        <suite-file path="testng.xml"></suite-file>
+    </suite-files>
+    <test verbose="2" preserve-order="true" name="C:/Users/dines/IdeaProjects/TestNGWithAllureReport">
+        <classes>
+            <class name="org.example.AppTest">
+                <methods>
+                    <include name="demo1"/>
+                    <include name="devil"/>
+                    <include name="akshaya"/>
+                    <include name="dheeksha"/><!--gkjfghskjhsd -->
+                </methods>
+            </class>
+            <class name="org.example.TestNGDemo">
+                <methods>
+                    <include name="Login"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
